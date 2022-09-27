@@ -1,0 +1,15 @@
+num_list = [0, 10, 1, 9]
+
+def get_min_avg_max(num_list):
+    my_tuple = []
+    get_min = min(num_list)
+    my_tuple.append(get_min)
+    get_avg = sum(num_list)/len(num_list)
+    my_tuple.append(get_avg)
+    get_max = max(num_list)
+    my_tuple.append(get_max)
+
+    print(my_tuple)
+    return get_min, get_avg, get_max
+
+get_min_avg_max([0, 10, 1, 9])
